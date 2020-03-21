@@ -38,4 +38,13 @@ public class User {
     public void setGrade(Double grade) {
         this.grade = grade;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", password='" + password + '\'' +
+                ", grade=" + grade +
+                '}';
+    }
 }

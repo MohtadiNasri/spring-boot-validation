@@ -20,7 +20,7 @@ public class UserController {
         if (result.hasErrors()) {
             return "add";
         }
-        System.out.println("Save user =" + user);
+        System.out.println("Save user =" + user.toString());
         return "success";
     }
 }
